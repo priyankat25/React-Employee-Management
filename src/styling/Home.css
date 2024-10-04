@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif; /* Set a default font */
+  background-color: #f4f4f4; /* Light gray background */
+  margin: 0;
+  padding: 20px; /* Add some padding around the body */
+}
+
+h1 {
+  text-align: center; /* Center the heading */
+  color: #333; /* Dark gray color for the heading */
+  margin-bottom: 300px; /* Space below the heading */
+}
+
+nav {
+  background-color: #fff; /* White background for the navbar */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  padding: 15px; /* Padding inside the navbar */
+}
+
+.nav-link {
+  display: block; /* Ensure links occupy full width */
+  margin: 10px 0; /* Space between links */
+  text-decoration: none; /* Remove underline */
+  color: #007bff; /* Link color */
+  font-weight: bold; /* Bold text */
+  transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.nav-link:hover {
+  color: #0056b3; /* Change color on hover */
+}
