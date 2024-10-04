@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
 
-<<<<<<< HEAD
 import {
   createBrowserRouter,
   createRoutesFromElements,
@@ -30,11 +29,5 @@ const router = createBrowserRouter(
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <RouterProvider router={router} />
-=======
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-  <React.StrictMode>
-    <App />
->>>>>>> 2f4b2fb5f05e8538ca746b95188397cf9d31e4a0
   </React.StrictMode>
 );
