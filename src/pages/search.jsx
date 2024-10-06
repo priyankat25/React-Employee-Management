@@ -38,9 +38,12 @@ export default function GetEmployee() {
 
       {error && <p style={{ color: "red" }}>{error}</p>}
 
+      <br />
+      <br />
       {employee && (
         <div className="employee-info">
-          <h3>{employee.name}</h3>
+          <h4>ID: {employee.id}</h4>
+          <h4>Name: {employee.name}</h4>
           <p>Salary: {employee.salary}</p>
           <p>
             Assets:{" "}

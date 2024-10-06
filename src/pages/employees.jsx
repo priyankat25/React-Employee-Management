@@ -12,7 +12,7 @@ export default function EmployeeList() {
     const fetchEmployees = async () => {
       try {
         const response = await axios.get(
-          "http://localhost:8080/getAllEmployees"
+          "http://localhost:8080/getAllEmployee"
         );
         setEmployees(response.data);
       } catch (err) {
